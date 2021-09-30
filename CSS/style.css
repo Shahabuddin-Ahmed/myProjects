@@ -1,0 +1,19 @@
+
+#login{
+    display: flex;
+    al
+
+}
+#login input{
+    display: inline-flex;
+    margin: 5px;
+    width: 260px;
+    background: transparent;
+    border: transparent;
+} 
+#login input:focus{
+    border: thick 1px red;
+}
+.row{
+    border: 1px solid red;
+}
