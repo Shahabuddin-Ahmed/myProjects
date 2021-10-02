@@ -1,39 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ballon App</title>
-  <link rel="stylesheet" href="./CSS/bootstrap.css" />
-  <link rel="stylesheet" href="./CSS/style.css" />
-  <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-  <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-  <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/startup.css">
+  <title>Balon App</title>
 </head>
-
 <body>
-  <div class="container">
-    <div id="login">
-      Email: <input type="email" placeholder="email" id="email"><br>
-      Password: <input type="password" placeholder="password" id="password"><br>
-      <button class="btn" id="login">Login</button>
-      <button class="btn" id="signup">Signin</button>
-    </div>
-
-    <div class="row" id="signup">
-      <input type="text" placeholder="user name here..." id="user">
-      <input type="email" placeholder="email here..." id="sEmail">
-      <input type="password" placeholder="password here..." id="sPassword">
-      <button class="btn" id="signup">signup</button>
+  <div class="wrapper">
+    <h2>Start Game</h2>
+    <button onclick="loginPage()">Login</button> 
+    <button  onclick="signinPage()">Signin</button>
+    <div class="box">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
 
     </div>
   </div>
-
-
-
-  <script src="./APP/app.js"></script>
+  <script src="./app/function.js"></script>
 </body>
-
 </html>

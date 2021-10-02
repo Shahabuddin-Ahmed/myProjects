@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+
+/* 
 #login{
     display: flex;
-    al
 
 }
 #login input{
@@ -16,4 +21,33 @@
 }
 .row{
     border: 1px solid red;
+} */
+body{
+    background-image: url(../images/login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+}
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 25%;
+    height: 50%;
+    width: 50%;
+}
+.container .row .col #login button{
+    margin: 5px 40%;
+}
+.container .row .col #login button:hover{
+    background-color: darkred;
+    color: white;
+}
+h2{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 60px 35px;
+    text-shadow: 4px 5px #8155bb;
 }
