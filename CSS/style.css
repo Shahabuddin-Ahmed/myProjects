@@ -3,30 +3,12 @@
     padding: 0;
 }
 
-
-/* 
-#login{
-    display: flex;
-
-}
-#login input{
-    display: inline-flex;
-    margin: 5px;
-    width: 260px;
-    background: transparent;
-    border: transparent;
-} 
-#login input:focus{
-    border: thick 1px red;
-}
-.row{
-    border: 1px solid red;
-} */
 body{
     background-image: url(../images/login.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-origin: content-box;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 .container{
     position: absolute;
@@ -37,12 +19,17 @@ body{
     height: 50%;
     width: 50%;
 }
+.container .row .col #login label{
+    font-size: 20px;
+}
 .container .row .col #login button{
     margin: 5px 40%;
+    font-weight: bold;
 }
 .container .row .col #login button:hover{
     background-color: darkred;
     color: white;
+    font-weight: bold;
 }
 h2{
     font-family: poppins;
